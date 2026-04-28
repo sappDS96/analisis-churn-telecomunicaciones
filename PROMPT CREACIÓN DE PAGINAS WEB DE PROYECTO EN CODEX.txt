@@ -1,0 +1,193 @@
+Sí. Pásale este prompt a Codex:
+
+```text
+Necesito que edites una página HTML existente de mi portfolio.
+
+Ruta base del proyecto:
+C:\Users\sergi\Downloads\html5up-spectral
+
+Archivo que debes copiar y modificar:
+proyecto-energia.html
+
+Crea una copia nueva llamada:
+proyecto-churn.html
+
+Objetivo:
+Transformar el borrador actual en una página real del proyecto “Análisis de Churn – Clientes de Telecomunicaciones”.
+
+Mantén:
+- La misma estructura visual del template.
+- El mismo estilo general.
+- Header, footer, botones y espaciados similares.
+- No cambies el diseño global del sitio.
+- Solo reemplaza textos, títulos, imágenes y enlaces necesarios.
+
+Imágenes:
+Todas están dentro de:
+C:\Users\sergi\Downloads\html5up-spectral\images
+
+Usa estas imágenes en la sección “Capturas del Dashboard”, en este orden exacto:
+
+1. Proyecto Churn - 1
+2. Proyecto Churn - 2 (Monthly)
+3. Proyecto Churn - 5 (Tenure 0-12)
+4. Proyecto Churn - 6 (Payment_method-vs-churn_rate)
+
+Asegúrate de usar la extensión real del archivo si existe como .png, .jpg o .jpeg.
+
+Título principal del proyecto:
+ANÁLISIS DE CHURN EN CLIENTES DE TELECOMUNICACIONES
+
+Subtítulo del hero:
+DASHBOARD INTERACTIVO REALIZADO CON POWER BI, PYTHON Y ANÁLISIS DE DATOS
+
+Reemplazar las secciones actuales por el siguiente contenido:
+```
+
+## 1. CONTEXTO DEL PROYECTO
+
+```html
+<h3>1. Contexto del proyecto</h3>
+<p>
+Este proyecto analiza el abandono de clientes en una empresa de telecomunicaciones, con el objetivo de identificar patrones asociados al churn, segmentar perfiles de riesgo y estimar el impacto económico sobre el ingreso mensual.
+</p>
+<p>
+El análisis parte de un conjunto de datos relacional compuesto por información de contratos, datos personales de clientes, servicios de internet y servicios de telefonía. Las tablas fueron integradas, depuradas y transformadas para construir un dataset analítico orientado a visualización, segmentación y toma de decisiones.
+</p>
+```
+
+## 2. HERRAMIENTAS UTILIZADAS
+
+```html
+<h3>2. Herramientas utilizadas</h3>
+<ul>
+  <li><strong>Python:</strong> integración, limpieza y transformación de datos.</li>
+  <li><strong>Pandas:</strong> preparación del dataset analítico final.</li>
+  <li><strong>Power BI:</strong> diseño del dashboard interactivo y creación de medidas DAX.</li>
+  <li><strong>DAX:</strong> cálculo de KPIs, tasa de churn, ingreso mensual e ingreso asociado a clientes que abandonaron.</li>
+  <li><strong>Power Query:</strong> ajustes y preparación adicional de datos para visualización.</li>
+</ul>
+```
+
+## 3. DEMOSTRACIÓN EN VIDEO
+
+```html
+<h3>3. Demostración en video</h3>
+<p>
+En este video presento una navegación guiada por el dashboard, explicando los KPIs principales, los factores asociados al churn, el uso de filtros globales y la priorización de clientes en riesgo.
+</p>
+```
+
+Mantén aquí el bloque de YouTube existente. Si no hay enlace todavía, deja el iframe o contenedor preparado para reemplazarlo después.
+
+## 4. CAPTURAS DEL DASHBOARD
+
+Texto inicial:
+
+```html
+<h3>4. Capturas del dashboard</h3>
+<p>
+A continuación se muestran distintas vistas del dashboard, incluyendo la vista general y tres escenarios filtrados para analizar segmentos clave del abandono de clientes.
+</p>
+```
+
+Imagen 1:
+
+```html
+<img src="images/Proyecto Churn - 1.png" alt="Vista general del dashboard de churn">
+<h4>Vista general del dashboard</h4>
+<p>
+Esta vista resume los principales indicadores del negocio: clientes totales, clientes que abandonaron, tasa de churn, ingreso mensual e ingreso asociado a clientes que abandonaron. También permite observar los factores principales del churn por contrato, antigüedad, método de pago y segmento económico.
+</p>
+```
+
+Imagen 2:
+
+```html
+<img src="images/Proyecto Churn - 2 (Monthly).png" alt="Análisis de churn filtrado por contrato mensual">
+<h4>Churn en clientes con contrato mensual</h4>
+<p>
+Al seleccionar el contrato mensual, se observa que este segmento concentra una proporción elevada de abandono. Este comportamiento sugiere menor compromiso contractual y mayor sensibilidad a la experiencia del cliente, precio o alternativas del mercado.
+</p>
+```
+
+Imagen 3:
+
+```html
+<img src="images/Proyecto Churn - 5 (Tenure 0-12).png" alt="Análisis de churn en clientes con antigüedad de 0 a 12 meses">
+<h4>Churn en clientes con baja antigüedad</h4>
+<p>
+Al filtrar clientes con una antigüedad entre 0 y 12 meses, se evidencia que una parte importante del churn ocurre en etapas tempranas del ciclo de vida del cliente. Esto apunta a la importancia del onboarding, la experiencia inicial y las primeras interacciones con el servicio.
+</p>
+```
+
+Imagen 4:
+
+```html
+<img src="images/Proyecto Churn - 6 (Payment_method-vs-churn_rate).png" alt="Análisis de churn por método de pago E-Check">
+<h4>Churn asociado al método de pago E-Check</h4>
+<p>
+Al seleccionar E-Check, el dashboard permite analizar cómo determinados métodos de pago se asocian con mayores tasas de abandono. Este hallazgo puede orientar acciones sobre experiencia de pago, comunicación con clientes y estrategias de retención.
+</p>
+```
+
+Importante:
+Si las imágenes no tienen extensión .png, detecta la extensión real en la carpeta images y ajusta el src automáticamente.
+
+## 5. PRINCIPALES INSIGHTS
+
+```html
+<h3>5. Principales insights</h3>
+<ul>
+  <li>Los contratos mensuales presentan la mayor tasa de churn frente a contratos de largo plazo.</li>
+  <li>El abandono se concentra especialmente en clientes con baja antigüedad, principalmente durante los primeros meses de relación con la empresa.</li>
+  <li>El método de pago E-Check muestra una asociación relevante con mayores tasas de abandono.</li>
+  <li>El análisis cruzado entre contrato y antigüedad permite identificar segmentos de mayor riesgo que no serían tan evidentes analizando variables por separado.</li>
+  <li>El dashboard permite priorizar clientes y segmentos donde el churn tiene mayor impacto económico.</li>
+</ul>
+```
+
+## 6. METODOLOGÍA TÉCNICA
+
+```html
+<h3>6. Metodología técnica</h3>
+<p>
+El desarrollo del análisis siguió un flujo de trabajo estructurado desde la preparación de datos hasta la visualización final:
+</p>
+<ul>
+  <li><strong>Integración de datos:</strong> unión de tablas relacionales de contratos, clientes, servicios de internet y telefonía.</li>
+  <li><strong>Limpieza y transformación:</strong> estandarización de variables, creación de columnas analíticas y preparación del dataset final.</li>
+  <li><strong>Modelado analítico:</strong> construcción de variables de riesgo y segmentación para apoyar la interpretación del churn.</li>
+  <li><strong>Visualización:</strong> diseño de un dashboard en Power BI con KPIs, filtros globales, matriz de análisis cruzado, gráficos de comportamiento y tabla de clientes prioritarios.</li>
+</ul>
+```
+
+## Botones finales
+
+Reemplaza el botón de GitHub por:
+
+```html
+<a href="#" class="button primary icon brands fa-github">Ver código en GitHub</a>
+```
+
+Deja el href en # si todavía no tengo el enlace definitivo.
+
+Mantén el botón:
+
+```html
+<a href="index.html" class="button">Volver al inicio</a>
+```
+
+Revisión final:
+
+* Verifica que las imágenes carguen correctamente.
+* Verifica que no queden textos antiguos de “cadena de suministro” u otro proyecto.
+* Verifica que el título de la pestaña HTML diga:
+  Análisis de Churn | Sergio Pérez
+* Mantén el diseño responsive del template.
+* No cambies rutas globales de CSS o JS.
+
+```
+
+Y una cosa importante: antes de correrlo, asegúrate de que los nombres de las imágenes estén exactamente iguales en la carpeta `images`. Si Windows les agregó `.png`, `.jpg` o espacios dobles, Codex debe respetar eso.
+```
