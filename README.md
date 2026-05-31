@@ -2,6 +2,11 @@
 
 Proyecto de analisis de datos orientado a identificar patrones de abandono de clientes (churn) en una empresa de telecomunicaciones, segmentar perfiles de riesgo y estimar el impacto economico asociado a la perdida de clientes.
 
+## Vista del analisis
+
+- [Ver notebook limpio](analisis_churn_telecomunicaciones.md): version ligera para revisar el codigo en GitHub.
+- [Ver analisis completo en HTML](analisis_churn_telecomunicaciones.html): version exportada con codigo, texto y graficos.
+
 ## Objetivo del proyecto
 
 Construir un analisis visual y ejecutivo que permita:
@@ -60,10 +65,10 @@ El dashboard incluye:
 
 ## Archivos recomendados del repositorio
 
-- Notebook limpio del proyecto
-- CSV analitico final
-- Capturas del dashboard
-- PDF o material de presentacion
+- `analisis_churn_telecomunicaciones.md`: notebook limpio para revision del codigo.
+- `analisis_churn_telecomunicaciones.html`: analisis completo exportado con graficos.
+- `df_Churn.csv`: CSV analitico final.
+- Capturas del dashboard.
 
 ## Autor
 
@@ -72,4 +77,3 @@ Data Analytics / Impact
 
 GitHub: [sappDS96](https://github.com/sappDS96)  
 LinkedIn: [sergioperezp](https://www.linkedin.com/in/sergioperezp/)
-
